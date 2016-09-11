@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lz.example.android_gesture_sample.MainActivity">
+
+    <Button
+        android:id="@+id/capturing_touch_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onCapturingTouchClick"
+        android:text="捕获触摸手势" />
+
+    <Button
+        android:id="@+id/detect_gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onDetectGestureClick"
+        android:text="检测所有支持的手势" />
+
+    <Button
+        android:id="@+id/simple_gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSimpleOnGestureClick"
+        android:text="检测部分支持的手势" />
+
+    <Button
+        android:id="@+id/tracking_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onTrackingMovement"
+        android:text="追踪手势移动" />
+
+    <Button
+        android:id="@+id/animating_a_scroll_gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onAnimatingAScrollGesture"
+        android:text="滚动手势动画" />
+</LinearLayout>
