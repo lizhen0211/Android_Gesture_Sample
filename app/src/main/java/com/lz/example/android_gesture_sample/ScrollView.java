@@ -66,6 +66,7 @@ public class ScrollView extends View {
         }
     };
 
+    @Override
     public boolean onTouchEvent(MotionEvent event) {
 //        detectorCompat.onTouchEvent(event);
 
